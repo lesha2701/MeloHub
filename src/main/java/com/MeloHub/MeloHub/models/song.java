@@ -7,4 +7,6 @@ public class song {
     private Long id;
     private String name;
 
+    private String author;
+
 }

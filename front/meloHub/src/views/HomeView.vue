@@ -1,15 +1,15 @@
 <script>
-import song from '@/components/song.vue';
+import SongsList from '@/components/SongsList.vue';
 
 export default {
   components: {
-    song
+    SongsList
   }
 }
 </script>
 
 <template>
-  <main>
-    <song></song>
+  <main class="main">
+    <SongsList />
   </main>
 </template>
